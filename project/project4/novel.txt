@@ -1,0 +1,31 @@
+The Adventures of C Program
+It was a bright morning. C Program woke up and checked if (time == 9AM) then he would go to work. C worked as a coder at a tech company. 
+While C was walking to work, he thought about the tasks for today. His boss asked him to implement some new functions for their software. C needed to design the functions, define the arguments, return the values and make sure no errors occurred. 
+When C arrived at the office, he turned on his computer and began to code. He wrote:
+#include <stdio.h>
+int main(){
+char name[50]; 
+printf("Please enter your name: ");
+scanf("%s", name); 
+print("Hello %s! Welcome.", name);
+if (age > 0 && age < 120){
+   print("Your age is %d.", age);
+}else{
+   print("Invalid age!");
+}
+float height;
+printf("Please enter your height (cm): ");
+scanf("%f", &height); 
+switch(gender){
+   case 'm':
+   printf("Male");
+   break;
+   case 'f':
+   printf("Female");
+   break;
+   default:
+   printf("Invalid"); 
+}
+}
+While C was coding, he sipped some coffee and took a break when he was tired. By the end of the day, his functions were finished. C felt content and looked forward to more work the next day.
+The end.
